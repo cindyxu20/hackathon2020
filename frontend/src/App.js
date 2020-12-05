@@ -13,10 +13,10 @@ const dukeRemoteExperienceTheme = createMuiTheme({
             default: "#f7f3f2",
         },
         primary: {
-            main: "#C84E00",
+            main: "#012169",
         },
         secondary: {
-            main: ""
+            main: "#C84E00"
         },
         type: "light",
     },
