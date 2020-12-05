@@ -1,27 +1,47 @@
-import React, { useRef } from "react";
-import { Box, Button, Typography } from "@material-ui/core"
+// react 
+import React from "react";
 
+// material-ui
+import { Box, Button, Typography } from "@material-ui/core"
+import { CssBaseline } from "@material-ui/core";
+import { createMuiTheme } from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/styles";
+
+const dukeRemoteExperienceTheme = createMuiTheme({
+    palette: {
+        background: {
+            default: "#f7f3f2",
+        },
+        primary: {
+            main: "#00009C",
+        },
+        type: "light",
+    },
+    shadows: ["none"],
+});
 function App() {
 
     function handleClickStart() {
         alert("lol")
     }
 
-
     return (
-        <Box align="center" mt={10}>
-            {/* title */}
-            <Typography>Remote Duke Experience</Typography>
+        <ThemeProvider theme={dukeRemoteExperienceTheme}>
+            <CssBaseline />
+            <Box align="center" mt={10}>
+                {/* title */}
+                <Typography>Remote Duke Experience</Typography>
 
-            {/* button */}
-            <Button
-                onClick={handleClickStart}
-                variant="contained"
-                color="secondary"
-            >
-                start
+                {/* button */}
+                <Button
+                    onClick={handleClickStart}
+                    variant="contained"
+                    color="secondary"
+                >
+                    start
             </Button>
-        </Box>
+            </Box>
+        </ThemeProvider>
     );
 }
 
