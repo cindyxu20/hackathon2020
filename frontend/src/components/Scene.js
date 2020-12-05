@@ -8,7 +8,7 @@ export default function Scene({ scene }) {
         <Box mb={5}>
             <Typography variant="h6">{scene.name}</Typography>
             <img src={scene.backgroundUrl} width="60px" />
-            <Carousel>
+            <Carousel timeout =  {200}>
                 {
                     scene.textContent.map(dialog => <Typography>{dialog.text}</Typography>)
                 }
