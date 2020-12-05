@@ -15,7 +15,7 @@ export default function HomeScreen() {
         <div>
             {/* title */}
             <Box align="center" mt={10}>
-                <Typography>Remote Duke Experience</Typography>
+                <Typography variant = "h2">Remote Duke Experience</Typography>
             </Box>
 
             {/* button */}
