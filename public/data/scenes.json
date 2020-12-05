@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "name": "chapel",
+        "backgroundUrl": "url/to/image.jpeg",
+        "textContent": [
+            {
+                "text": "Hello! Welcome"   
+            },
+            {
+                "text": "sample message 1"   
+            },
+            {
+                "text": "sample message 2"   
+            },
+            {
+                "text": "Last message before going to next scene!"   
+            }
+        ]
+    }
+]

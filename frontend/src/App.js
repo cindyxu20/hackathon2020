@@ -54,7 +54,7 @@ function App() {
                     color="secondary"
                 >
                     start
-            </Button>
+                </Button>
             </Box>
         </ThemeProvider>
     );
