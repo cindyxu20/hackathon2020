@@ -53,7 +53,7 @@ function App() {
                     variant="contained"
                     color="secondary"
                 >
-                    start
+                    credits
                 </Button>
             </Box>
         </ThemeProvider>
