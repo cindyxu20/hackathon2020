@@ -1,28 +1,28 @@
 import React, { useRef } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Box } from "@material-ui/core"
+import { Box, Button, Typography } from "@material-ui/core"
 
-function Demo() {
+function App() {
+
+    function handleClickStart() {
+        alert("lol")
+    }
+
+
     return (
-        <div>
-            <Router>
-                <NavBar />
-                <Box p={2}>
-                    <Switch>
-                        <Route path="/draw">
-                            <Draw />
-                        </Route>
-                        <Route path="/view">
-                            <View />
-                        </Route>
-                        <Route exact path="/">
-                            <Home />
-                        </Route>
-                    </Switch>
-                </Box>
-            </Router>
-        </div>
+        <Box align="center" mt={10}>
+            {/* title */}
+            <Typography>Remote Duke Experience</Typography>
+
+            {/* button */}
+            <Button
+                onClick={handleClickStart}
+                variant="contained"
+                color="secondary"
+            >
+                start
+            </Button>
+        </Box>
     );
 }
 
-export default Demo
+export default App
