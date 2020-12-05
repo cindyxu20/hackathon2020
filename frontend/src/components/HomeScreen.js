@@ -5,7 +5,7 @@ import React from 'react'
 import { Box, Button, Typography } from "@material-ui/core"
 
 // duke remote experience
-import scenes from "../../../public/"
+import scenes from "../../../public/data/scenes.json"
 
 export default function HomeScreen({ scenes }) {
     return (
