@@ -10,7 +10,7 @@ export default function SceneController() {
 
     return (
         <div>
-            <Scene scene={scene} />
+            <Scene scene={scene} setSceneId={setSceneId} />
         </div>
     )
 }

@@ -3,18 +3,24 @@ import { Box, Button, Typography } from "@material-ui/core"
 import Carousel from 'react-material-ui-carousel'
 import SceneDialog from "./SceneDialog"
 
-export default function Scene({ scene }) {
+export default function Scene({ scene, setSceneId }) {
+
+    function goToNextScene(){
+        setSceneId(scene.id + 1)
+    }
+
     return (
-        <Box align = "center" mb={5}>
+        <Box align="center" mb={5}>
             <Typography variant="h4">{scene.name}</Typography>
             <img src={scene.backgroundUrl} width="800px" />
-            <Carousel timeout =  {200}>
+            <Carousel timeout={200}>
                 {
                     scene.textContent.map(dialog => (
                         <SceneDialog text={dialog.text} />
                     ))
                 }
             </Carousel>
+            <Button color="secondary" variant="contained" onClick={goToNextScene}>NEXT SCENE</Button>
         </Box>
     )
 }
