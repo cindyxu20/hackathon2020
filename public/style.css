@@ -1,5 +1,4 @@
 .overlay{
-    background-color: #c453b5;
-    opacity: 0.8;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    box-shadow: inset 0 0 0 1000px rgba(0, 83, 155, .65);
+    background-size: cover;
 }
