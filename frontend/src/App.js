@@ -26,7 +26,7 @@ const dukeRemoteExperienceTheme = createMuiTheme({
         whiteness: {
             main: "#FFFFFF"
         },
-        type: "light",
+        type: "dark",
     },
     shadows: ["none"],
     //font-family: 'EB Garamond', serif;
