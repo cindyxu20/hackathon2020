@@ -17,7 +17,7 @@ export default function HomeScreen() {
             {/* title */}
            
             <Box align="center" mt={10}>
-                <Typography  color="whiteness" variant = "h2">Remote University Experience</Typography>
+                <Typography  color="whiteness" variant = "h2">Welcome to the Remote University Experience</Typography>
                 <Typography  color="whiteness" variant = "h6">Insights about studying in COVID times at Duke, as well as information applicable to students from other universities.</Typography>
             </Box>
             
