@@ -1,7 +1,13 @@
+// react
 import React from 'react'
+
+// material-ui
 import { Box, Button, Typography } from "@material-ui/core"
 
-export default function HomeScreen({scenes}) {
+// duke remote experience
+import scenes from "../../../public/"
+
+export default function HomeScreen({ scenes }) {
     return (
         <div>
             {/* title */}
@@ -30,12 +36,7 @@ export default function HomeScreen({scenes}) {
 
             <Box align="center">
                 <Typography>Scenes: </Typography>
-                {scenes.map(scene => {
-                    return <Box>
-                        <Typography variant="h3">{scene.name}</Typography>
-                    </Box>
-
-                })}
+                {scenes.map(scene => <Scene scene={scene} />)}
             </Box>
         </div>
     )
