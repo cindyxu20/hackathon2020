@@ -13,10 +13,12 @@ import Scene from "./Scene"
 export default function HomeScreen() {
 
     return (
-        <div style = {{height: "100vh", background:"url(./img/front-page-entrance.jpg)"}}>
+        <div style = {{height: "100vh",opacity: ".8", background:"url(./img/front-page-entrance.jpg)"}}>
+            <div class = "overlay">
+            
             {/* title */}
            
-            <Box align="center" mt={10}>
+            <Box align="center" mt={0}>
                 <Typography  color="whiteness" variant = "h2">Remote University Experience</Typography>
                 <Typography  color="whiteness" variant = "h6">Insights about studying in COVID times at Duke, as well as information applicable to students from other universities.</Typography>
             </Box>
@@ -41,7 +43,7 @@ export default function HomeScreen() {
                     credits
                 </Button>
             </Box>
-            
+           </div>
         </div>
     )
 }
