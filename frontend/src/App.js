@@ -31,20 +31,25 @@ function App() {
     return (
         <ThemeProvider theme={dukeRemoteExperienceTheme}>
             <CssBaseline />
-            <Box align="center" mt={10}>
-                {/* title */}
-                <Typography>Remote Duke Experience</Typography>
 
-                {/* button */}
+            {/* title */}
+            <Box align="center" mt={10}>
+                <Typography>Remote Duke Experience</Typography>
+            </Box>
+
+            {/* button */}
+            <Box align="center" p={3}>
                 <Button
                     onClick={handleClickStart}
                     variant="contained"
                     color="primary"
                 >
                     start
-            </Button>
+                </Button>
+            </Box>
+
+            <Box align="center" p={3}>
                 <Button
-                    onClick={handleClickStart}
                     variant="contained"
                     color="secondary"
                 >
