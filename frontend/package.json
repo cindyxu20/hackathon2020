@@ -4,7 +4,6 @@
   "description": "",
   "main": "webpack.config.js",
   "homepage": "./",
-
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "build": "webpack -p --config ./webpack.config.js --mode production"

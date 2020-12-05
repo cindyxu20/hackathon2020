@@ -15,17 +15,28 @@ import Scene from "./components/Scene"
 const dukeRemoteExperienceTheme = createMuiTheme({
     palette: {
         background: {
-            default: "#00539B",
+            default: "#012169",
         },
         primary: {
-            main: "#012169",
+            main: "#00539B",
         },
         secondary: {
             main: "#C84E00"
         },
+        whiteness: {
+            main: "#FFFFFF"
+        },
         type: "light",
     },
     shadows: ["none"],
+    //font-family: 'EB Garamond', serif;
+    typography: {
+        "fontFamily": `"EB Garamond", "Times New Roman", serif`,
+        "fontSize": 14,
+        "fontWeightLight": 300,
+        "fontWeightRegular": 400,
+        "fontWeightMedium": 500
+       },
 });
 function App() {
 

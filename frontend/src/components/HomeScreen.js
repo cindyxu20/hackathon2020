@@ -16,7 +16,7 @@ export default function HomeScreen() {
         <div>
             {/* title */}
             <Box align="center" mt={10}>
-                <Typography variant = "h2">Remote Duke Experience</Typography>
+                <Typography  color="whiteness" variant = "h2">Remote Duke Experience</Typography>
             </Box>
             <Box align = "center">
                 <img  max-width = "100%" width = "800px" src = "./img/front-page-entrance.jpg"></img>
