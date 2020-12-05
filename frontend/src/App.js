@@ -12,6 +12,7 @@ import scenes from "../../public/data/scenes.json"
 import HomeScreen from "./components/HomeScreen"
 import SceneController from "./components/SceneController"
 
+
 const dukeRemoteExperienceTheme = createMuiTheme({
     palette: {
         background: {
@@ -38,6 +39,7 @@ const dukeRemoteExperienceTheme = createMuiTheme({
         "fontWeightMedium": 500
        },
 });
+
 function App() {
 
     return (

@@ -13,14 +13,14 @@ import Scene from "./Scene"
 export default function HomeScreen() {
 
     return (
-        <div>
+        <div style = {{height: "100vh", background:"url(./img/front-page-entrance.jpg)"}}>
             {/* title */}
+           
             <Box align="center" mt={10}>
-                <Typography  color="whiteness" variant = "h2">Remote Duke Experience</Typography>
+                <Typography  color="whiteness" variant = "h2">Remote University Experience</Typography>
+                <Typography  color="whiteness" variant = "h6">Insights about studying in COVID times at Duke, as well as information applicable to students from other universities.</Typography>
             </Box>
-            <Box align = "center">
-                <img  max-width = "100%" width = "800px" src = "./img/front-page-entrance.jpg"></img>
-            </Box>
+            
             {/* button */}
             <Box align="center" p={3}>
                 <Button
@@ -41,6 +41,7 @@ export default function HomeScreen() {
                     credits
                 </Button>
             </Box>
+            
         </div>
     )
 }
