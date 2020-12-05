@@ -18,7 +18,9 @@ export default function HomeScreen() {
             <Box align="center" mt={10}>
                 <Typography variant = "h2">Remote Duke Experience</Typography>
             </Box>
-
+            <Box align = "center">
+                <img  max-width = "100%" width = "800px" src = "./img/front-page-entrance.jpg"></img>
+            </Box>
             {/* button */}
             <Box align="center" p={3}>
                 <Button

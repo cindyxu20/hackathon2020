@@ -15,7 +15,7 @@ import Scene from "./components/Scene"
 const dukeRemoteExperienceTheme = createMuiTheme({
     palette: {
         background: {
-            default: "#f7f3f2",
+            default: "#00539B",
         },
         primary: {
             main: "#012169",
