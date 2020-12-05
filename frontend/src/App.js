@@ -13,7 +13,10 @@ const dukeRemoteExperienceTheme = createMuiTheme({
             default: "#f7f3f2",
         },
         primary: {
-            main: "#00009C",
+            main: "#C84E00",
+        },
+        secondary: {
+            main: ""
         },
         type: "light",
     },
@@ -33,6 +36,13 @@ function App() {
                 <Typography>Remote Duke Experience</Typography>
 
                 {/* button */}
+                <Button
+                    onClick={handleClickStart}
+                    variant="contained"
+                    color="primary"
+                >
+                    start
+            </Button>
                 <Button
                     onClick={handleClickStart}
                     variant="contained"
