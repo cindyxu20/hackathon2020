@@ -7,7 +7,10 @@ import { Box, Button, Typography } from "@material-ui/core"
 // duke remote experience
 import scenes from "../../../public/data/scenes.json"
 
-export default function HomeScreen({ scenes }) {
+import Scene from "./Scene"
+
+export default function HomeScreen() {
+
     return (
         <div>
             {/* title */}
