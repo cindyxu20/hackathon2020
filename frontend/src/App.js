@@ -7,6 +7,9 @@ import { CssBaseline } from "@material-ui/core";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 
+// duke remote experience
+import scenes from "../../public/data/scenes.json"
+
 const dukeRemoteExperienceTheme = createMuiTheme({
     palette: {
         background: {
@@ -55,6 +58,17 @@ function App() {
                 >
                     start
                 </Button>
+            </Box>
+
+            <Box align="center">
+
+                {JSON.stringify(scenes)}
+                {scenes.map(scene => {
+                    return <Box>
+                        <Typography variant="h3">{scene.name}</Typography>
+                    </Box>
+
+                })}
             </Box>
         </ThemeProvider>
     );
