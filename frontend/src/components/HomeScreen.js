@@ -1,5 +1,6 @@
 // react
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // material-ui
 import { Box, Button, Typography } from "@material-ui/core"
@@ -23,6 +24,8 @@ export default function HomeScreen() {
                 <Button
                     variant="contained"
                     color="primary"
+                    component={Link}
+                    to={"/scene"}
                 >
                     start
                 </Button>
@@ -35,11 +38,6 @@ export default function HomeScreen() {
                 >
                     credits
                 </Button>
-            </Box>
-
-            <Box align="center">
-                <Typography variant="h5">Scenes: </Typography>
-                {scenes.map(scene => <Scene scene={scene} />)}
             </Box>
         </div>
     )

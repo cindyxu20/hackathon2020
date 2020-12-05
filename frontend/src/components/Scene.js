@@ -13,8 +13,7 @@ export default function Scene({ scene }) {
                 {
                     scene.textContent.map(dialog => (
                         <SceneDialog text={dialog.text} />
-                                        )                    )
-                    
+                    ))
                 }
             </Carousel>
         </Box>

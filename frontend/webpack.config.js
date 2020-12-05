@@ -38,7 +38,7 @@ module.exports = () => {
       new webpack.DefinePlugin(envKeys),
     ],
     devServer: {
-      // historyApiFallback: true,
+      historyApiFallback: true,
       contentBase: "../public/",
       hot: true,
     },
