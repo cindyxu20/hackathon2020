@@ -15,7 +15,7 @@ export default function HomeScreen() {
         <div>
             {/* title */}
             <Box align="center" mt={10}>
-                <Typography>Remote Duke Experience</Typography>
+                <Typography variant="h5">Remote Duke Experience</Typography>
             </Box>
 
             {/* button */}
@@ -38,7 +38,7 @@ export default function HomeScreen() {
             </Box>
 
             <Box align="center">
-                <Typography>Scenes: </Typography>
+                <Typography variant="h5">Scenes: </Typography>
                 {scenes.map(scene => <Scene scene={scene} />)}
             </Box>
         </div>
