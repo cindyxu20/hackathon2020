@@ -3,6 +3,7 @@ import { Box, Button, Typography } from "@material-ui/core"
 import Carousel from 'react-material-ui-carousel'
 import SceneDialog from "./SceneDialog"
 
+
 export default function Scene({ scene }) {
     return (
         <Box mb={5}>
@@ -10,7 +11,10 @@ export default function Scene({ scene }) {
             <img src={scene.backgroundUrl} width="60px" />
             <Carousel>
                 {
-                    scene.textContent.map(dialog => <Typography>{dialog.text}</Typography>)
+                    scene.textContent.map(dialog => (
+                        <SceneDialog text={dialog.text} />
+                                        )                    )
+                    
                 }
             </Carousel>
         </Box>

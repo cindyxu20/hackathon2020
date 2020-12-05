@@ -35,8 +35,8 @@ function App() {
 
             <Router>
                 <Switch>
-                    <Route path="/scene/:id">
-                        <Scene/>
+                    <Route path="/scene">
+                        <Scene scene={scenes[0]} />
                     </Route>
                     <Route exact path="/">
                         <HomeScreen scenes={scenes} />
