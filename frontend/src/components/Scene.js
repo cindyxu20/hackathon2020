@@ -6,8 +6,8 @@ import SceneDialog from "./SceneDialog"
 
 export default function Scene({ scene }) {
     return (
-        <Box mb={5}>
-            <Typography variant="h6">{scene.name}</Typography>
+        <Box align = "center" mb={5}>
+            <Typography variant="h4">{scene.name}</Typography>
             <img src={scene.backgroundUrl} width="800px" />
             <Carousel timeout =  {200}>
                 {

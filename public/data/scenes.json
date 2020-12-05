@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "name": "chapel",
+        "name": "Chapel",
         "backgroundUrl": "./img/duke-chapel.jpg",
         "textContent": [
             {
@@ -20,7 +20,7 @@
     },
     {
         "id": "2",
-        "name": "scene 2",
+        "name": "Scene 2",
         "backgroundUrl": "./img/duke_1.jpg",
         "textContent": [
             {
@@ -39,7 +39,7 @@
     },
     {
         "id": "3",
-        "name": "scene 3",
+        "name": "Scene 3",
         "backgroundUrl": "./img/test.jpg",
         "textContent": [
             {
