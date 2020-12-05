@@ -2,25 +2,46 @@ import React from 'react'
 import { Box, Button, Typography } from "@material-ui/core"
 import Carousel from 'react-material-ui-carousel'
 import SceneDialog from "./SceneDialog"
+import { useHistory } from "react-router-dom"
+
+    
 
 export default function Scene({ scene, setSceneId }) {
+    const history = useHistory()
 
-    function goToNextScene(){
+    function goToNextScene() {
         setSceneId(scene.id + 1)
     }
 
+    function goToPreviousScene() {
+
+        // if in the first scene, go to home screen
+        if (scene.id === 1) {
+            history.push("/")
+            return;
+        }
+
+        setSceneId(scene.id - 1)
+    }
+
     return (
-        <Box align="center" mb={5}>
+        <Box style={{
+            height: "100vh",
+            background: `url(${scene.backgroundUrl})`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+        }}>
             <Typography variant="h4">{scene.name}</Typography>
-            <img src={scene.backgroundUrl} width="800px" />
-            <Carousel timeout={200}>
+            <Carousel timeout={200} indicators={false} navButtonsAlwaysVisible={true}>
                 {
                     scene.textContent.map(dialog => (
-                        <SceneDialog text={dialog.text} />
+                        <SceneDialog text={dialog.text} key={dialog.id} />
                     ))
                 }
             </Carousel>
-            <Button color="secondary" variant="contained" onClick={goToNextScene}>NEXT SCENE</Button>
+            <Button color="secondary" variant="contained" onClick={goToPreviousScene}>BACK</Button>
+            {scene.id !== 3 && <Button color="secondary" variant="contained" onClick={goToNextScene}>NEXT SCENE</Button>}
         </Box>
     )
 }

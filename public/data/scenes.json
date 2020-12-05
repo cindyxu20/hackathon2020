@@ -5,15 +5,19 @@
         "backgroundUrl": "./img/duke-chapel.jpg",
         "textContent": [
             {
+                "id": 1,
                 "text": "Hello! Welcome"   
             },
             {
+                "id": 2,
                 "text": "sample message 1"   
             },
             {
+                "id": 3,
                 "text": "sample message 2"   
             },
             {
+                "id": 4,
                 "text": "Last message before going to next scene!"   
             }
         ]
@@ -24,16 +28,20 @@
         "backgroundUrl": "./img/duke_1.jpg",
         "textContent": [
             {
-                "text": "Hello! Welcome"   
+                "id": 1,
+                "text": "HHFDSKFJDKLFJYLKMFEWKLFMDSFMDSaf"   
             },
             {
-                "text": "sample message 1"   
+                "id": 2,
+                "text": "sample asdfasdfasdfmessage 1"   
             },
             {
-                "text": "sample message 2"   
+                "id": 3,
+                "text": "sample measdfasdfasdfasdssage 2"   
             },
             {
-                "text": "Last message before going to next scene!"   
+                "id": 4,
+                "text": "Last mefsadfsadfasdfssage before going to next scene!"   
             }
         ]
     },
@@ -43,16 +51,20 @@
         "backgroundUrl": "./img/test.jpg",
         "textContent": [
             {
-                "text": "Hello! Welcome"   
+                "id": 1,
+                "text": "Hello! Wedfsadfdsafslcome"   
             },
             {
-                "text": "sample message 1"   
+                "id": 2,
+                "text": "sampsadfasfdasdfasle message 1"   
             },
             {
-                "text": "sample message 2"   
+                "id": 3,
+                "text": "sampleasdfasdfasdf message 2"   
             },
             {
-                "text": "Last message before going to next scene!"   
+                "id": 4,
+                "text": "Last message before going to next scasdfasdfasdfene!"   
             }
         ]
     }
