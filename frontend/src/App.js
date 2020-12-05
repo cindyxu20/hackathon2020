@@ -5,10 +5,12 @@ import React from "react";
 import { CssBaseline } from "@material-ui/core";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
-import HomeScreen from "./components/HomeScreen"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // duke remote experience
 import scenes from "../../public/data/scenes.json"
+import HomeScreen from "./components/HomeScreen"
+import Scene from "./components/Scene"
 
 const dukeRemoteExperienceTheme = createMuiTheme({
     palette: {
@@ -30,7 +32,17 @@ function App() {
     return (
         <ThemeProvider theme={dukeRemoteExperienceTheme}>
             <CssBaseline />
-            <HomeScreen scenes={scenes} />
+
+            <Router>
+                <Switch>
+                    <Route path="/scene/:id">
+                        <Scene/>
+                    </Route>
+                    <Route exact path="/">
+                        <HomeScreen scenes={scenes} />
+                    </Route>
+                </Switch>
+            </Router>
         </ThemeProvider>
     );
 }
