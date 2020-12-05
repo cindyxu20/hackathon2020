@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // duke remote experience
 import scenes from "../../public/data/scenes.json"
 import HomeScreen from "./components/HomeScreen"
-import Scene from "./components/Scene"
+import SceneController from "./components/SceneController"
 
 const dukeRemoteExperienceTheme = createMuiTheme({
     palette: {
@@ -47,7 +47,7 @@ function App() {
             <Router>
                 <Switch>
                     <Route path="/scene">
-                        <Scene scene={scenes[0]} />
+                        <SceneController />
                     </Route>
                     <Route exact path="/">
                         <HomeScreen scenes={scenes} />
