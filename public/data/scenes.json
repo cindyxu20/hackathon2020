@@ -166,7 +166,7 @@
         "name": "Wellness Center - Inside",
         "backgroundUrl": "./img/insidewellnesscenter.jpg",
         "soundUrl": "./audio/9minJazz.mp3",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 50, "y": 10},
         "textContent": [
             {
                 "id": 1,
@@ -190,7 +190,7 @@
         "id": 8,
         "name": "Bus Stop",
         "backgroundUrl": "./img/bus.jpg",
-        "deviPos": {"x": 50, "y": 30},
+        "deviPos": {"x": 60, "y": 30},
         "textContent": [
             {
                 "id": 1,
@@ -221,7 +221,7 @@
     {
         "id": 9,
         "name": "Academic Resource Center",
-        "deviPos": {"x": 30, "y": 35},
+        "deviPos": {"x": 70, "y": 35},
         "backgroundUrl": "./img/academicresource.jpg",
         "textContent": [
             {
@@ -253,7 +253,7 @@
     {
         "id": 10,
         "name": "East Campus",
-        "deviPos": {"x": 30, "y": 40},
+        "deviPos": {"x": 60, "y": 40},
         "backgroundUrl": "./img/eastcampus.jpg",
         "textContent": [
             {
@@ -277,7 +277,7 @@
     {
         "id": 11,
         "name": "Back on West Campus: The End",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 80, "y": 10},
         "backgroundUrl": "./img/finalscene.jpg",
         "textContent": [
             {
