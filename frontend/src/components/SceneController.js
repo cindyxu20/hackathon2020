@@ -8,9 +8,5 @@ export default function SceneController() {
 
     const scene = getScene(sceneId)
 
-    return (
-        <div>
-            <Scene scene={scene} setSceneId={setSceneId} />
-        </div>
-    )
+    return <Scene scene={scene} setSceneId={setSceneId} />
 }

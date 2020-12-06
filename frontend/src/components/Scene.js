@@ -2,6 +2,8 @@ import React from "react";
 import { Box } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import DialogBar from "./DialogBar"
+import BlueDevil from "./BlueDevil"
+import TopBar from "./TopBar"
 
 export default function Scene({ scene, setSceneId }) {
     const history = useHistory();
@@ -30,7 +32,9 @@ export default function Scene({ scene, setSceneId }) {
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
             }}
-        >\
+        >
+            <TopBar text={scene.name} />
+            <BlueDevil />
             <DialogBar scene={scene} goToNextScene={goToNextScene} goToPreviousScene={goToPreviousScene}></DialogBar>
         </Box>
     );
