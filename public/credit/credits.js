@@ -4,7 +4,7 @@ let cindy;
 let eric;
 let ian;
 let joey;
-
+var isSound = false;
 let homeImage;
 let devi
 function preload() {
@@ -12,6 +12,7 @@ function preload() {
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  song = loadSound('../audio/touch.mp3');
   yPos = windowHeight;
   athena = new Credit("Athena Yao", "character designer / Devi's mother and goddess of wisdom", 200);
   cindy = new Credit("Cindy Xu", "script writer, terrific tracer, and not-so-sketchy artist ", 400);
@@ -28,6 +29,8 @@ function draw() {
   background(1, 33, 105);
   textAlign(CENTER);
   textFont('EB Garamond');
+  textSize(30);
+  text("Click screen for audio", windowWidth/2, yPos -100);
   textSize(100);
   text("Credits" , windowWidth/2, yPos);
   athena.display();
@@ -40,6 +43,12 @@ function draw() {
     yPos--;
 
   
+}
+function mousePressed(){
+  if(isSound === false){
+    song.play();
+    isSound = true;
+  }
 }
 
 
