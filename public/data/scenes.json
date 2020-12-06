@@ -136,5 +136,43 @@
                 "text": "You can find tons of resource offices, such as the Center for Multicultural Affairs (CMA), which is committed to promoting diversity and inclusion while eliminating racism and discrimination in our community. Remember, we are always here to help! [Center for Multicultural Affairs]"   
             }
         ]
+    },
+    {
+        "id": 7,
+        "name": "Wellness Center",
+        "backgroundUrl": "./img/wellnesscenter.jpg",
+        "textContent": [
+            {
+                "id": 1,
+                "text": "Feeling under the weather? The Wellness Center (which is really close to Penn Pavilion near the Bryan Center)’s appointment-making process has you covered!"
+            },
+            {
+                "id": 2,
+                "text": "Just follow this link to contact a doctor or nurse! [Make an Appointment | Duke Health]"   
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Wellness Center - Inside",
+        "backgroundUrl": "./img/insidewellnesscenter.jpg",
+        "textContent": [
+            {
+                "id": 1,
+                "text": "You can sign up for virtual meditation/yoga sessions through the wellness center if you ever need a break! You can sign up using this link! [Online Yoga - Duke Integrative Medicine]"
+            },
+            {
+                "id": 2,
+                "text": "Wanna see me do the Devotional Warrior Pose? Just kidding!! I’m static!"   
+            },
+            {
+                "id": 3,
+                "text": "Oh, and before I forget, did you do your daily checkup? For Duke students on or around campus, make sure to log in your symptoms into your SymMon app before 2:00pm, or else *whispers* your DukeCard will deactivate!"   
+            },
+            {
+                "id": 4,
+                "text": "But don’t worry, Duke will send daily reminders for SymMon and COVID-testing."
+            }
+        ]
     }
 ]
