@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./index.js",
     "build": "cd frontend && npm run build",
-    "deploy": "cd ./frontend && npm run build && cd ../ && gcloud app deploy --project duke-remote --quiet"
+    "deploy": "cd ./frontend && npm run build && cd ../ && gcloud app deploy --project duke-re --quiet"
   },
   "author": "",
   "license": "ISC",

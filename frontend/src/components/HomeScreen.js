@@ -1,13 +1,28 @@
 // react
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 // material-ui
-import { Box, Button, Typography } from "@material-ui/core";
+import { Box, Button, Typography, Fade } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 export default function HomeScreen() {
+  const history = useHistory()
+
+  const [ fadeOut, setFadeOut ] = useState(false)
+
+  function handleClickStart(){
+    setFadeOut(true)
+
+    setTimeout(()=>{
+      history.push("/scene")
+    }, 1000
+    )
+  }
+
   return (
+    <Fade in={!fadeOut}>
+
     <div
       class="overlay"
       style={{
@@ -43,8 +58,7 @@ export default function HomeScreen() {
               <Button
                 variant="contained"
                 color="primary"
-                component={Link}
-                to={"/scene"}
+                onClick={handleClickStart}
               >
                 start
               </Button>
@@ -59,5 +73,7 @@ export default function HomeScreen() {
         </Grid>
       </Grid>
     </div>
+    </Fade>
+
   );
 }
