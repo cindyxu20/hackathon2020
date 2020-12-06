@@ -8,7 +8,6 @@ let joey;
 let homeImage;
 let devi
 function preload() {
-  song = loadSound('assets/lucky_dragons_-_power_melody.mp3');
   img = loadImage('https://images-ext-1.discordapp.net/external/3_xsgwmNfxiCswVE0QhjzncbsJUzk3vAf2E6pCmHQ7M/http/duke-re.appspot.com/img/mascot.gif?width=526&height=702');
 }
 function setup() {
@@ -21,8 +20,6 @@ function setup() {
     joey = new Credit("Joseph Scarpa", "design programming and somehow last alphabetically", 1000);
     homeImage = new Attribution("Home Screen Image", "Duke Brand Portal", 1400)
   imageMode(CENTER);
-  
-  song.play();
    
 }
 
@@ -40,7 +37,7 @@ function draw() {
         joey.display();
         image(img, windowWidth/2, yPos+1200, 300, 350);
         homeImage.display();
-yPos--;
+    yPos--;
 
   
 }
