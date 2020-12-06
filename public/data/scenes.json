@@ -29,30 +29,26 @@
     {
         "id": 2,
         "name": "scene 2",
-        "backgroundUrl": "./scene2walk.MOV",
+        "backgroundUrl": "./video/scene2walk.MOV",
         "textContent": [
             {
                 "id": 1,
-                "text": "HHFDSKFJDKLFJYLKMFEWKLFMDSFMDSaf"   
+                "text": "First, let’s make sure that you’re ready for classes! "   
             },
             {
                 "id": 2,
-                "text": "sample asdfasdfasdfmessage 1"   
+                "text": "We can head over to a classroom, where we can go over the resources and info you’ll need to be set for online learning! "   
             },
             {
                 "id": 3,
-                "text": "sample measdfasdfasdfasdssage 2"   
-            },
-            {
-                "id": 4,
-                "text": "Last mefsadfsadfasdfssage before going to next scene!"   
+                "text": "We’re on our way to the Languages building on West Campus,  which used to be Duke’s School of Law and has recently been the hub of a variety of socially-distanced classes for Duke’s FOCUS program."   
             }
         ]
     },
     {
         "id": 3,
         "name": "scene 3",
-        "backgroundUrl": "./img/duke-chapel2.jpg",
+        "backgroundUrl": "./img/Classroom.jpg",
         "textContent": [
             {
                 "id": 1,
