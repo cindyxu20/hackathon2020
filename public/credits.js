@@ -30,6 +30,7 @@ function draw() {
         joey.display();
 yPos--;
 
+  
 }
 
 
