@@ -54,7 +54,7 @@ export default function HomeScreen() {
               <Box align="center" p={3}>
                 <Button
                   variant="contained"
-                  color="primary"
+                  color="secondary"
                   onClick={handleClickStart}
                 >
                   start
@@ -62,7 +62,7 @@ export default function HomeScreen() {
               </Box>
 
             <Box align="center" p={3}>
-              <Button href = "./credit" variant="contained" color="secondary">
+              <Button href = "./credit" variant="contained" color="primary">
                   Credits
               </Button>
               </Box>
