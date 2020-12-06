@@ -166,7 +166,7 @@
         "name": "Wellness Center - Inside",
         "backgroundUrl": "./img/insidewellnesscenter.jpg",
         "soundUrl": "./audio/9minJazz.mp3",
-        "deviPos": {"x": 50, "y": 10},
+        "deviPos": {"x": 50, "y": 25},
         "textContent": [
             {
                 "id": 1,
