@@ -11,6 +11,7 @@ export default function BlueDevil({position, animation}) {
         position: "fixed",
         bottom: `${position.y}%`,
         right: `${100 - position.x}%`,
+        zIndex: 666
     }
 
     return (

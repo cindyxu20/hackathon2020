@@ -8,56 +8,58 @@ import Grid from "@material-ui/core/Grid";
 
 export default function HomeScreen() {
   return (
-    <div
-      class="overlay"
-      style={{
-        height: "100vh",
-        background: "url(./img/front-page-entrance.jpg)",
-        backgroundPosition: "bottom",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-    >
-      {/* title */}
-      <Grid
-        container
-        style={{ height: "100vh" }}
-        direction="row"
-        justify="center"
-        alignItems="center"
+    <Fade timeout={4000} in={true}>
+      <div
+        class="overlay"
+        style={{
+          height: "100vh",
+          background: "url(./img/front-page-entrance.jpg)",
+          backgroundPosition: "bottom",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
       >
-        <Grid item>
-          <Box bgcolor="primary">
-            <Box align="center">
-              <Typography color="whiteness" variant="h4">
-                Welcome to the Remote University Experience
+        {/* title */}
+        <Grid
+          container
+          style={{ height: "100vh" }}
+          direction="row"
+          justify="center"
+          alignItems="center"
+        >
+          <Grid item>
+            <Box bgcolor="primary">
+              <Box align="center">
+                <Typography color="whiteness" variant="h4">
+                  Welcome to the Remote University Experience
               </Typography>
-              <Typography color="whiteness" variant="h6">
-                Insights about studying in COVID times at Duke, as well as
-                information applicable to students from other universities.
+                <Typography color="whiteness" variant="h6">
+                  Insights about studying in COVID times at Duke, as well as
+                  information applicable to students from other universities.
               </Typography>
-            </Box>
+              </Box>
 
-            {/* button */}
-            <Box align="center" p={3}>
-              <Button
-                variant="contained"
-                color="primary"
-                component={Link}
-                to={"/scene"}
-              >
-                start
+              {/* button */}
+              <Box align="center" p={3}>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  component={Link}
+                  to={"/scene"}
+                >
+                  start
               </Button>
-            </Box>
+              </Box>
 
-            <Box align="center" p={3}>
-              <Button href = "credit.html" variant="contained" color="secondary">
+              <Box align="center" p={3}>
+                <Button href="credit.html" variant="contained" color="secondary">
                   Credits
               </Button>
+              </Box>
             </Box>
-          </Box>
+          </Grid>
         </Grid>
-      </Grid>
-    </div>
+      </div>
+    </Fade>
   );
 }
