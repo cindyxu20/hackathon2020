@@ -51,7 +51,7 @@ export default function HomeScreen() {
             </Box>
 
             <Box align="center" p={3}>
-              <Button href = "credit.html" variant="contained" color="secondary">
+              <Button href = "./credit/" variant="contained" color="secondary">
                   Credits
               </Button>
             </Box>
