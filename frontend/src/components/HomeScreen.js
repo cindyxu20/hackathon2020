@@ -16,7 +16,7 @@ export default function HomeScreen() {
                 <Box   bgcolor="primary">
                 <Box align="center">
                     <Typography color="whiteness" variant="h4">Welcome to the Remote University Experience</Typography>
-                    <Typography color="whiteness" variant="h6">Insights about studying in COVID times at Duke, as well as information applicable to students from other universities.</Typography>
+                    <Typography color="whiteness" variant="h6">Explore Duke while gaining insights, advice, and resources to help you succeed in an online learning environment!</Typography>
                 </Box>
 
                 {/* button */}
