@@ -1,4 +1,4 @@
-name: Test
+name: Test and Deploy
 on: [push]
 
 jobs:
@@ -16,9 +16,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
+    - run: npm ci
     - run: npm run build
     - run: npm test
+    - name: Deploy to Google App Engine
+      uses: atRobertoFlores/gae_deploy_action@master
+      with:
+      service_account: duke-re@appspot.gserviceaccount.com
+      project_name: duke-re
 
       env:
         CI: true
