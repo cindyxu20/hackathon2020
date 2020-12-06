@@ -174,7 +174,7 @@
                 "text": "But don’t worry, Duke will send daily reminders for SymMon and COVID-testing."
             }
         ]
-    }
+    },
     {
         "id": 9,
         "name": "Wellness Center - Inside",
@@ -197,8 +197,8 @@
                 "text": "But don’t worry, Duke will send daily reminders for SymMon and COVID-testing."
             }
         ]
-    }
-{
+    },
+    {
         "id": 10,
         "name": "Wellness Center - Inside",
         "backgroundUrl": "./img/insidewellnesscenter.jpg",
