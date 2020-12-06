@@ -12,13 +12,10 @@ export default function HomeScreen() {
   const history = useHistory()
   const [fadeOut, setFadeOut] = useState(false)
 
-  function handleClickState() {
-
+  function handleClickStart() {
     setFadeOut(true)
-
-
     setTimeout(() => {
-      
+      history.push('/scene')
     }, 4000)
   }
 
@@ -58,15 +55,14 @@ export default function HomeScreen() {
                 <Button
                   variant="contained"
                   color="primary"
-                  component={Link}
-                  to={"/scene"}
+                  onClick={handleClickStart}
                 >
                   start
               </Button>
               </Box>
 
               <Box align="center" p={3}>
-                <Button href="credit.html" variant="contained" color="secondary">
+                <Button href="./credit/" variant="contained" color="secondary">
                   Credits
               </Button>
               </Box>
