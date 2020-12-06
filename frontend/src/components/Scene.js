@@ -2,6 +2,7 @@ import React, { useState, Suspense } from "react";
 import { Box, Fade } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 const DialogBar = React.lazy(() => import("./DialogBar"))
+import PlaySound from "./PlaySound"
 import BlueDevil from "./BlueDevil"
 import TopBar from "./TopBar"
 import { getScene } from "../functions"
@@ -67,6 +68,9 @@ export default function Scene() {
                     backgroundSize: "cover",
                 }}
             >
+                {/* if sound url, play the sound */}
+                <PlaySound url={scene.soundUrl} />
+
                 <TopBar text={scene.name} />
                 <BlueDevil position={scene.deviPos} animation={deviAnimation} />
                 <Suspense fallback={<div />}>
