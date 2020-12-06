@@ -18,7 +18,7 @@ export default function DialogBar({ scene, goToNextScene, goToPreviousScene }) {
                 </Grid>
                 <Grid item md={6}>
                     <Carousel
-                        timeout={200}
+                        interval={8000}
                         indicators={false}
                         navButtonsAlwaysVisible={false}
                     >
