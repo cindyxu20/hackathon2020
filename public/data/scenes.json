@@ -29,7 +29,7 @@
     {
         "id": 2,
         "name": "scene 2",
-        "backgroundUrl": "./img/duke_1.jpg",
+        "backgroundUrl": "./scene2walk.MOV",
         "textContent": [
             {
                 "id": 1,
