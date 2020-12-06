@@ -157,7 +157,7 @@
             },
             {
                 "id": 2,
-                "text": "Just follow this link to contact a doctor or nurse! [Make an Appointment | Duke Health]"
+                "text": "Just follow this link to contact a doctor or nurse! <a class=\"mdlink\" target=\"_blank\" href=\"https://www.dukehealth.org/plan-your-visit/make-an-appointment\">DukeHub</a>"
             }
         ]
     },
