@@ -198,7 +198,7 @@
             },
             {
                 "id": 2,
-                "text": "Want to explore opportunities and career pathways at Duke? Talk to a DAE (Director of Academic Engagement) by scheduling appointments through this link: [Directors of Academic Engagement | Duke Academic Advising Center]"
+                "text": "Want to explore opportunities and career pathways at Duke? Talk to a DAE (Director of Academic Engagement) by scheduling appointments through this link: <a class=\"mdlink\" target=\"_blank\" href=\"https://advising.duke.edu/network/dae\">DukeHub</a>"
             },
             {
                 "id": 3,
