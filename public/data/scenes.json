@@ -68,7 +68,7 @@
             },
             {
                 "id": 4,
-                "text": "To succeed as a Duke student, you must familiarize yourself with classroom tools: there’s your premium Zoom account, courtesy of Duke (log in using Duke University - Zoom), and tools such as Sakai, Sapling, Akindi, Canvas, and Gradescope."
+                "text": "To succeed as a Duke student, you must familiarize yourself with classroom tools: there’s your premium Zoom account, courtesy of Duke (log in using <a class=\"mdlink\" target=\"_blank\" href=\"https://duke.zoom.us/\">DukeHub</a>), and tools such as Sakai, Sapling, Akindi, Canvas, and Gradescope."
             },
             {
                 "id": 5,
@@ -125,7 +125,7 @@
         "textContent": [
             {
                 "id": 1,
-                "text": "An important building on Duke’s campus is the Bryan Center. On the top floor of BC, we have our local art gallery and the University Store! You can order some of our super cool merch from our online store here: Duke University Store"
+                "text": "An important building on Duke’s campus is the Bryan Center. On the top floor of BC, we have our local art gallery and the University Store! You can order some of our super cool merch from our online store here: <a class=\"mdlink\" target=\"_blank\" href=\"https://www.dukestores.duke.edu/\">DukeHub</a>"
             }
         ]
     },
@@ -141,7 +141,7 @@
             },
             {
                 "id": 2,
-                "text": "You can find tons of resource offices, such as the Center for Multicultural Affairs (CMA), which is committed to promoting diversity and inclusion while eliminating racism and discrimination in our community. Remember, we are always here to help! [Center for Multicultural Affairs]"
+                "text": "You can find tons of resource offices, such as the Center for Multicultural Affairs (CMA), which is committed to promoting diversity and inclusion while eliminating racism and discrimination in our community. Remember, we are always here to help! <a class=\"mdlink\" target=\"_blank\" href=\"https://studentaffairs.duke.edu/cma\">DukeHub</a>"
             }
         ]
     },
@@ -157,7 +157,7 @@
             },
             {
                 "id": 2,
-                "text": "Just follow this link to contact a doctor or nurse! [Make an Appointment | Duke Health]"
+                "text": "Just follow this link to contact a doctor or nurse! <a class=\"mdlink\" target=\"_blank\" href=\"https://www.dukehealth.org/plan-your-visit/make-an-appointment\">DukeHub</a>"
             }
         ]
     },
@@ -198,7 +198,7 @@
             },
             {
                 "id": 2,
-                "text": "Want to explore opportunities and career pathways at Duke? Talk to a DAE (Director of Academic Engagement) by scheduling appointments through this link: [Directors of Academic Engagement | Duke Academic Advising Center]"
+                "text": "Want to explore opportunities and career pathways at Duke? Talk to a DAE (Director of Academic Engagement) by scheduling appointments through this link: <a class=\"mdlink\" target=\"_blank\" href=\"https://advising.duke.edu/network/dae\">DukeHub</a>"
             },
             {
                 "id": 3,

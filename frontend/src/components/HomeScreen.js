@@ -1,14 +1,29 @@
 // react
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom"
 
 // material-ui
 import { Box, Button, Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 export default function HomeScreen() {
+
+  const history = useHistory()
+  const [fadeOut, setFadeOut] = useState(false)
+
+  function handleClickState() {
+
+    setFadeOut(true)
+
+
+    setTimeout(() => {
+      
+    }, 4000)
+  }
+
   return (
-    <Fade timeout={4000} in={true}>
+    <Fade timeout={4000} in={!fadeOut}>
       <div
         class="overlay"
         style={{
@@ -34,8 +49,7 @@ export default function HomeScreen() {
                   Welcome to the Remote University Experience
               </Typography>
                 <Typography color="whiteness" variant="h6">
-                  Insights about studying in COVID times at Duke, as well as
-                  information applicable to students from other universities.
+                  Explore Duke while gaining insights, resources, and advice to help you succeed in an online learning environment!
               </Typography>
               </Box>
 
