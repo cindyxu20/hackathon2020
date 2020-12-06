@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box } from "@material-ui/core";
+import { Box, Fade } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import DialogBar from "./DialogBar"
 import BlueDevil from "./BlueDevil"
@@ -11,8 +11,9 @@ export default function Scene() {
     const history = useHistory();
     const [sceneId, setSceneId] = useState(0)
     const [dialogIndex, setDialogIndex] = useState(0)
-    const scene = getScene(sceneId)
     const [deviAnimation, setDeviAnimation] = useState("bounce-subtle")
+
+    const scene = getScene(sceneId)
 
     let animationTimeOut
 
@@ -56,29 +57,31 @@ export default function Scene() {
     }
 
     return (
-        <Box
-            class=" background-fixer"
-            style={{
-                height: "100vh",
-                background: `url(${scene.backgroundUrl})`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-            }}
-        >
-            <TopBar text={scene.name} />
-            <BlueDevil position={scene.deviPos} animation={deviAnimation} />
-            <DialogBar
-                {...{
-                    scene,
-                    goToNextScene,
-                    goToPreviousScene,
-                    dialogIndex,
-                    setDialogIndex,
-                    handleNextDialog,
-                    handlePreviousDialog
+        <Fade in={true}>
+            <Box
+                class=" background-fixer"
+                style={{
+                    height: "100vh",
+                    background: `url(${scene.backgroundUrl})`,
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
                 }}
-            />
-        </Box>
+            >
+                <TopBar text={scene.name} />
+                <BlueDevil position={scene.deviPos} animation={deviAnimation} />
+                <DialogBar
+                    {...{
+                        scene,
+                        goToNextScene,
+                        goToPreviousScene,
+                        dialogIndex,
+                        setDialogIndex,
+                        handleNextDialog,
+                        handlePreviousDialog
+                    }}
+                />
+            </Box>
+        </Fade>
     );
 }
