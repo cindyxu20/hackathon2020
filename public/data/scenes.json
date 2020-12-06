@@ -277,7 +277,7 @@
     {
         "id": 11,
         "name": "Back on West Campus: The End",
-        "deviPos": {"x": 80, "y": 10},
+        "deviPos": {"x": 80, "y": 40},
         "backgroundUrl": "./img/finalscene.jpg",
         "textContent": [
             {
