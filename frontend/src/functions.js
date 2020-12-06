@@ -1,7 +1,10 @@
 import scenes from "../../public/data/scenes.json"
 
 export function getScene(id){
-    const scene = scenes.find(scene => scene.id === id) || scenes[2]
+    let scene = scenes.find(scene => scene.id === id) 
+
+    scene.nextSceneTitle = scenes[id + 1]?.name
+    scene.prevSceneTitle = scenes[id - 1]?.name
 
     return scene
 }

@@ -13,7 +13,14 @@ const useStyles = makeStyles(theme => ({
     }
 }))
 
-export default function DialogBar({ scene, goToNextScene, goToPreviousScene, dialogIndex, handleNextDialog, handlePreviousDialog }) {
+export default function DialogBar({
+    scene,
+    goToNextScene,
+    goToPreviousScene,
+    dialogIndex,
+    handleNextDialog,
+    handlePreviousDialog
+}) {
     const classes = useStyles()
 
     return (
@@ -22,11 +29,13 @@ export default function DialogBar({ scene, goToNextScene, goToPreviousScene, dia
                 <Grid item xs={12} md={2}>
                     <Button
                         color="secondary"
-                        variant="contained"
                         onClick={goToPreviousScene}
                     >
                         Previous
                     </Button>
+                    <br />
+                    <Typography variant="caption" color="textSecondary">{scene.prevSceneTitle.toLowerCase()}</Typography>
+
                 </Grid>
                 <Grid item xs={12} md={8}>
                     <Carousel
@@ -46,15 +55,17 @@ export default function DialogBar({ scene, goToNextScene, goToPreviousScene, dia
                 </Grid>
 
                 <Grid item xs={12} md={2}>
-                    {scene.id !== 8 && (
-                        <Button
-                            color="secondary"
-                            variant="contained"
-                            onClick={goToNextScene}
-                        >
-                            Next
-                        </Button>
-                    )}
+
+                    <Button
+                        color="secondary"
+                        variant="contained"
+                        onClick={goToNextScene}
+                    >
+                        Next
+                    </Button>
+
+                    <br />
+                    <Typography variant="caption" color="textSecondary">{scene.nextSceneTitle.toLowerCase()}</Typography>
                 </Grid>
             </Grid>
         </Box>

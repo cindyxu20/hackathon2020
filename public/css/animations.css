@@ -37,3 +37,18 @@
     50%  { transform: rotate(-36deg)}
     100%  { transform: rotate(0deg)}
 }
+
+.shake{
+    animation-name: shake;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-direction: forward;
+    animation-iteration-count: 1;   
+}
+@keyframes shake{
+    0%   { transform: rotate(0deg)}
+    10%   { transform: rotate(2deg)}
+    20%   { transform: rotate(-5deg)}
+    30%   { transform: rotate(4deg)}
+    40%   { transform: rotate(-1deg)}    
+}

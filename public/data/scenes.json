@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "name": "Chapel",
         "backgroundUrl": "./img/test.jpg",
         "deviPos": {"x": 90, "y": 10},
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "Walk to class!",
         "backgroundUrl": "./img/scene2walk.MOV",
         "deviPos": {"x": 50, "y": 50},
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Classroom",
         "backgroundUrl": "./img/Classroom.jpg",
         "deviPos": {"x": 40, "y": 10},
@@ -81,7 +81,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "BC Plaza and WU",
         "backgroundUrl": "./img/bcplaza.jpg",
         "deviPos": {"x": 30, "y": 10},
@@ -118,7 +118,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Bryan Center - University Store",
         "backgroundUrl": "./img/unistore.jpg",
         "deviPos": {"x": 30, "y": 10},
@@ -130,7 +130,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Bryan Center - Downstairs",
         "backgroundUrl": "./img/insidebc.jpg",
         "deviPos": {"x": 30, "y": 10},
@@ -146,7 +146,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Wellness Center",
         "backgroundUrl": "./img/wellnesscenter.jpg",
         "deviPos": {"x": 30, "y": 10},
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "Wellness Center - Inside",
         "backgroundUrl": "./img/insidewellnesscenter.jpg",
         "deviPos": {"x": 30, "y": 10},
@@ -186,7 +186,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 8,
         "name": "Bus Stop",
         "backgroundUrl": "./img/bus.jpg",
         "deviPos": {"x": 30, "y": 10},
@@ -218,7 +218,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 9,
         "name": "Academic Resource Center",
         "deviPos": {"x": 30, "y": 10},
         "backgroundUrl": "./img/academicresource.jpg",
@@ -242,7 +242,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 10,
         "name": "East Campus",
         "deviPos": {"x": 30, "y": 10},
         "backgroundUrl": "./img/insidewellnesscenter.jpg",
@@ -266,7 +266,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 11,
         "name": "The End",
         "deviPos": {"x": 30, "y": 10},
         "backgroundUrl": "./img/finalscene.jpg",
@@ -287,6 +287,7 @@
                 "id": 4,
                 "text": "But don’t worry, Duke will send daily reminders for SymMon and COVID-testing."
             }
+
         ]
     }
 ]

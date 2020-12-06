@@ -23,13 +23,19 @@ export default function Scene() {
 
     function handleNextDialog(next, active) {
         if (next === 0) {
+            // if next dialog on last dialog
             goToNextScene()
+        } else {
+            act("shake")
         }
     }
 
     function handlePreviousDialog(previous, active) {
         if (active === 0) {
+            // if previous dialog on first dialog
             goToPreviousScene()
+        } else {
+            act("shake")
         }
     }
 
