@@ -33,7 +33,7 @@ const dukeRemoteExperienceTheme = createMuiTheme({
     //font-family: 'EB Garamond', serif;
     typography: {
         "fontFamily": `"EB Garamond", "Times New Roman", serif`,
-        "fontSize": 14,
+        "fontSize": 20,
         "fontWeightLight": 300,
         "fontWeightRegular": 400,
         "fontWeightMedium": 500

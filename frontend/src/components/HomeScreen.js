@@ -12,7 +12,7 @@ export default function HomeScreen() {
             {/* title */}
             <Box bgcolor="primary">
                 <Box align="center">
-                    <Typography color="whiteness" variant="h2">Welcome to the Remote University Experience</Typography>
+                    <Typography color="whiteness" variant="h3">Welcome to the Remote University Experience</Typography>
                     <Typography color="whiteness" variant="h6">Insights about studying in COVID times at Duke, as well as information applicable to students from other universities.</Typography>
                 </Box>
 
@@ -24,7 +24,7 @@ export default function HomeScreen() {
                         component={Link}
                         to={"/scene"}
                     >
-                        start
+                        start  
                 </Button>
                 </Box>
 

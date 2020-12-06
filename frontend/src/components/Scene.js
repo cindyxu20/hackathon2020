@@ -25,14 +25,14 @@ export default function Scene({ scene, setSceneId }) {
     }
 
     return (
-        <Box style={{
+        <Box class = "background-fixer" style={{
             height: "100vh",
             background: `url(${scene.backgroundUrl})`,
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
         }}>
-            <Typography variant="h4">{scene.name}</Typography>
+            <Box style = {{position: "relative", top: "vh-300" }}><Typography variant="h4">{scene.name}</Typography>
             <Carousel timeout={200} indicators={false} navButtonsAlwaysVisible={true}>
                 {
                     scene.textContent.map(dialog => (
@@ -40,8 +40,9 @@ export default function Scene({ scene, setSceneId }) {
                     ))
                 }
             </Carousel>
-            <Button color="secondary" variant="contained" onClick={goToPreviousScene}>BACK</Button>
-            {scene.id !== 3 && <Button color="secondary" variant="contained" onClick={goToNextScene}>NEXT SCENE</Button>}
+            <Button color="secondary" variant="contained" onClick={goToPreviousScene}></Button>
+            {scene.id !== 3 && <Button color="secondary" variant="contained" onClick={goToNextScene}>NEXT SCENE</Button>}</Box>
+            
         </Box>
     )
 }
