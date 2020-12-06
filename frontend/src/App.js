@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // duke remote experience
 import scenes from "../../public/data/scenes.json"
-import HomeScreen from "./components/HomeScreen"
-import Scene from "./components/Scene"
+const HomeScreen = React.lazy(() => import("./components/HomeScreen")) 
+const Scene = React.lazy(() => import("./components/Scene")) 
 
 const dukeRemoteExperienceTheme = createMuiTheme({
     palette: {

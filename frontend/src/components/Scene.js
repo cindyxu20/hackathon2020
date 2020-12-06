@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, Suspense } from "react";
 import { Box, Fade } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
-import DialogBar from "./DialogBar"
+const DialogBar = React.lazy(() => import("./DialogBar"))
 import BlueDevil from "./BlueDevil"
 import TopBar from "./TopBar"
 import { getScene } from "../functions"
@@ -69,17 +69,19 @@ export default function Scene() {
             >
                 <TopBar text={scene.name} />
                 <BlueDevil position={scene.deviPos} animation={deviAnimation} />
-                <DialogBar
-                    {...{
-                        scene,
-                        goToNextScene,
-                        goToPreviousScene,
-                        dialogIndex,
-                        setDialogIndex,
-                        handleNextDialog,
-                        handlePreviousDialog
-                    }}
-                />
+                <Suspense fallback={<div />}>
+                    <DialogBar
+                        {...{
+                            scene,
+                            goToNextScene,
+                            goToPreviousScene,
+                            dialogIndex,
+                            setDialogIndex,
+                            handleNextDialog,
+                            handlePreviousDialog
+                        }}
+                    />
+                </Suspense>
             </Box>
         </Fade>
     );

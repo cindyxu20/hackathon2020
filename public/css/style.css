@@ -22,3 +22,7 @@
 .blackness{
     background-color: rgba(0, 0, 0, .7); 
 }
+/* a tags in markdown */
+.mdlink{
+    color: white
+}
