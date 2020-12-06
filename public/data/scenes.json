@@ -132,7 +132,7 @@
     {
         "id": 5,
         "name": "Bryan Center - Downstairs",
-        "backgroundUrl": "./img/insidebc.jpg",
+        "backgroundUrl": "./img/bcinside.jpg",
         "deviPos": {"x": 30, "y": 10},
         "textContent": [
             {
@@ -229,15 +229,23 @@
             },
             {
                 "id": 2,
-                "text": "Wanna see me do the Devotional Warrior Pose? Just kidding!! I’m static!"
+                "text": "Make sure to check out all of these amazing resources: [Duke Academic Resource Center]"
             },
             {
                 "id": 3,
-                "text": "Oh, and before I forget, did you do your daily checkup? For Duke students on or around campus, make sure to log in your symptoms into your SymMon app before 2:00pm, or else *whispers* your DukeCard will deactivate!"
+                "text": "Thinking about applying for a research opportunity through MUSER, our job opportunity website?"
             },
             {
                 "id": 4,
-                "text": "But don’t worry, Duke will send daily reminders for SymMon and COVID-testing."
+                "text": "Then schedule an appointment at the Career Center! [Career Center]"
+            },
+            {
+                "id": 5,
+                "text": "They can help you look over your resume, give you advice regarding jobs, and help you make the perfect application!"
+            },
+            {
+                "id": 6,
+                "text": "Applying for lab positions this year might be tough…but always try your best!"
             }
         ]
     },
@@ -245,47 +253,47 @@
         "id": 10,
         "name": "East Campus",
         "deviPos": {"x": 30, "y": 10},
-        "backgroundUrl": "./img/insidewellnesscenter.jpg",
+        "backgroundUrl": "./img/eastcampus.jpg",
         "textContent": [
             {
                 "id": 1,
-                "text": "You can sign up for virtual meditation/yoga sessions through the wellness center if you ever need a break! You can sign up using this link! [Online Yoga - Duke Integrative Medicine]"
+                "text": "Here we are on East Campus (where freshmem live)! I've got just a couple more tips and advice to help you make the most of your Duke experience."
             },
             {
                 "id": 2,
-                "text": "Wanna see me do the Devotional Warrior Pose? Just kidding!! I’m static!"
+                "text": "Join DukeGroups to learn about student organizations, activities and campus events! [DukeCreate and Partner Workshops | Duke Arts]                "
             },
             {
                 "id": 3,
-                "text": "Oh, and before I forget, did you do your daily checkup? For Duke students on or around campus, make sure to log in your symptoms into your SymMon app before 2:00pm, or else *whispers* your DukeCard will deactivate!"
+                "text": "Glance through the Duke Daily and the DUU newsletters to be inspired by recent stories within the community and find updates on diversity and inclusion resources, free giveaway events, and research findings!"
             },
             {
                 "id": 4,
-                "text": "But don’t worry, Duke will send daily reminders for SymMon and COVID-testing."
+                "text": "As for on-campus students in particular…try signing up for a session at the Wilson Recreation Center when you’re bored. Make sure to get your RAs number to contact them if needed, and record Campus Security’s number for your safety!"
             }
         ]
     },
     {
         "id": 11,
-        "name": "The End",
+        "name": "Back on West Campus: The End",
         "deviPos": {"x": 30, "y": 10},
         "backgroundUrl": "./img/finalscene.jpg",
         "textContent": [
             {
                 "id": 1,
-                "text": "You can sign up for virtual meditation/yoga sessions through the wellness center if you ever need a break! You can sign up using this link! [Online Yoga - Duke Integrative Medicine]"
+                "text": "Some final notes before I leave you on your way: time management is key, and scheduling time blocks to study and do work (such as using Google / Apple Calendar), switching up study locations or trying the Pomodoro technique to maximize productivity can be really helpful."
             },
             {
                 "id": 2,
-                "text": "Wanna see me do the Devotional Warrior Pose? Just kidding!! I’m static!"
+                "text": "Also, don’t hesitate to reach out to professors or drop by office hours to strike up a conversation about their work and/or seek academic help! There are also tons of programs and opportunities for research, community service/engagement, leadership development, and more that I can tell you more about after the official tour!"
             },
             {
                 "id": 3,
-                "text": "Oh, and before I forget, did you do your daily checkup? For Duke students on or around campus, make sure to log in your symptoms into your SymMon app before 2:00pm, or else *whispers* your DukeCard will deactivate!"
+                "text": "Thanks for joining me for this tour! Feel free to continue exploring on your own and connecting with other members of the community online!"
             },
             {
                 "id": 4,
-                "text": "But don’t worry, Duke will send daily reminders for SymMon and COVID-testing."
+                "text": "Enjoy your semester!! :)"
             }
 
         ]
