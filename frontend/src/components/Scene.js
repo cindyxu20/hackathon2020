@@ -40,8 +40,8 @@ export default function Scene({ scene, setSceneId }) {
                     ))
                 }
             </Carousel>
-            <Button color="secondary" variant="contained" onClick={goToPreviousScene}></Button>
-            {scene.id !== 3 && <Button color="secondary" variant="contained" onClick={goToNextScene}>NEXT SCENE</Button>}</Box>
+            <Button color="secondary" variant="contained" onClick={goToPreviousScene}>Previous Scene</Button>
+            {scene.id !== 3 && <Button color="secondary" variant="contained" onClick={goToNextScene}>Next Scene</Button>}</Box>
             
         </Box>
     )
