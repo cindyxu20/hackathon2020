@@ -46,7 +46,7 @@ export default function HomeScreen() {
                   Welcome to the Remote University Experience
               </Typography>
                 <Typography color="whiteness" variant="h6">
-                  Explore Duke while gaining insights, resources, and advice to help you succeed in an online learning environment!
+                  Explore Duke while gaining insights, resources, and advice<br></br> to help you succeed in an online learning environment!
               </Typography>
               </Box>
 

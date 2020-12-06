@@ -42,6 +42,7 @@ export default function Scene() {
     }
 
     function goToNextScene() {
+        if(scene.id === 11) location.href = "./credit";
         act("bounce")
         setDialogIndex(0)
         setSceneId(scene.id + 1);

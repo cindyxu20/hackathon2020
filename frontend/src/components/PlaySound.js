@@ -1,9 +1,8 @@
 import React, { useEffect } from "react"
 
 export default function PlaySound({ url }) {
-
+  
   if (!url) return false;
-
   useEffect(() => {
     const audioEl = document.getElementsByClassName("audio-element")[0]
     audioEl.play()
