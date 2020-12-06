@@ -6,9 +6,10 @@ import BlueDevil from "./BlueDevil"
 import TopBar from "./TopBar"
 import { getScene } from "../functions"
 
+
 export default function Scene() {
     const history = useHistory();
-    const [sceneId, setSceneId] = useState(1)
+    const [sceneId, setSceneId] = useState(0)
     const [dialogIndex, setDialogIndex] = useState(0)
     const scene = getScene(sceneId)
     const [deviAnimation, setDeviAnimation] = useState("bounce-subtle")

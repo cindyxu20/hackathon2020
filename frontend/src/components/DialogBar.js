@@ -3,6 +3,7 @@ import { Box, Button, Typography, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles"
 import Carousel from "react-material-ui-carousel";
 import SceneDialog from "./SceneDialog";
+import { CircularProgress } from "@material-ui/core"
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -34,7 +35,7 @@ export default function DialogBar({
                         Previous
                     </Button>
                     <br />
-                    <Typography variant="caption" color="textSecondary">{scene.prevSceneTitle.toLowerCase()}</Typography>
+                    <Typography variant="caption" color="textSecondary">{scene.prevSceneTitle}</Typography>
 
                 </Grid>
                 <Grid item xs={12} md={8}>
@@ -65,7 +66,7 @@ export default function DialogBar({
                     </Button>
 
                     <br />
-                    <Typography variant="caption" color="textSecondary">{scene.nextSceneTitle.toLowerCase()}</Typography>
+                    <Typography variant="caption" color="textSecondary">{scene.nextSceneTitle}</Typography>
                 </Grid>
             </Grid>
         </Box>
