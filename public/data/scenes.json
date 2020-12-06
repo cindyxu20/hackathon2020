@@ -65,11 +65,11 @@
             {
                 "id": 4,
                 "text": "To succeed as a Duke student, you must familiarize yourself with classroom tools: there’s your premium Zoom account, courtesy of Duke (log in using Duke University - Zoom), and tools such as Sakai, Sapling, Akindi, Canvas, and Gradescope."   
-            }
+            },
             {
                 "id": 5,
                 "text": "Check with your professors so you know what tools are necessary for each class! We have tutorials for each program here."   
-            }
+            },
             {
                 "id": 6,
                 "text": "That sounds like a lot, but navigating each of these platforms and being sure you are able to access lectures/recordings, submit tests/quizzes, turn in homework, etc., becomes more intuitive with some practice!"   
@@ -110,4 +110,6 @@
                 "text": "Another good app to download is DukeMobile, which provides you with a map of campus, info about transportation (including requesting a Duke Van), a directory, ePrint services, and more!"
             }
         ]
+    }
 ]
+
