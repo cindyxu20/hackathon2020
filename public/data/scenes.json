@@ -29,7 +29,7 @@
     {
         "id": 2,
         "name": "Walk to class!",
-        "backgroundUrl": "./video/scene2walk.MOV",
+        "backgroundUrl": "./img/scene2walk.MOV",
         "textContent": [
             {
                 "id": 1,
