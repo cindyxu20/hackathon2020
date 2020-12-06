@@ -170,7 +170,7 @@
         "textContent": [
             {
                 "id": 1,
-                "text": "You can sign up for virtual meditation/yoga sessions through the wellness center if you ever need a break! You can sign up using this link! [Online Yoga - Duke Integrative Medicine]"
+                "text": "You can sign up for virtual meditation/yoga sessions through the wellness center if you ever need a break! You can sign up using this link! <a class=\"mdlink\" target=\"_blank\" href=\"https://dukeintegrativemedicine.org/programs-training/public/yoga-classes/\">DukeHub</a>"
             },
             {
                 "id": 2,
