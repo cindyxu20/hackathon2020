@@ -141,7 +141,7 @@
             },
             {
                 "id": 2,
-                "text": "You can find tons of resource offices, such as the Center for Multicultural Affairs (CMA), which is committed to promoting diversity and inclusion while eliminating racism and discrimination in our community. Remember, we are always here to help! [Center for Multicultural Affairs]"
+                "text": "You can find tons of resource offices, such as the Center for Multicultural Affairs (CMA), which is committed to promoting diversity and inclusion while eliminating racism and discrimination in our community. Remember, we are always here to help! <a class=\"mdlink\" target=\"_blank\" href=\"https://studentaffairs.duke.edu/cma\">DukeHub</a>"
             }
         ]
     },
