@@ -16,13 +16,13 @@ app.use(bodyParser.json({ limit: '50mb', extended: true }));
 
 function serveReactApp(req, res) {
   // eslint-disable-next-line no-undef
-  res.sendFile(path.join(__dirname, "../public", "index.html"));
+  res.sendFile(path.join(__dirname, "./public", "index.html"));
 }
 
 app.get("/", serveReactApp);
 app.get("/scene", serveReactApp);
 
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "./public")));
 
 // start server
 const port = process.env.PORT || 3016;

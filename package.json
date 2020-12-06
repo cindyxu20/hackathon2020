@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
-    "deploy": "cd ../frontend && npm run build && cd ../server && gcloud app deploy --project duke-re --quiet"
+    "build": "cd frontend && npm run build",
+    "deploy": "cd ./frontend && npm run build && cd ../ && gcloud app deploy --project duke-re --quiet"
   },
   "author": "",
   "license": "ISC",
