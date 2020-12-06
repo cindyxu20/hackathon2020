@@ -57,7 +57,7 @@ export default function Scene() {
     }
 
     return (
-        <Fade timeout={1000} in={true}>
+        <Fade timeout={4000} in={true}>
             <Box
                 class=" background-fixer"
                 style={{

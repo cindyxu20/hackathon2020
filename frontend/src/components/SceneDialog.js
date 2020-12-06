@@ -7,10 +7,12 @@ export default function Dialog({ text }) {
 
     return (
         <Box p={3} px={8}>
-            <Box align="right">
-                <DialogTimer />
+            <Typography style={{ maxWidth: "711px" }} align="center" dangerouslySetInnerHTML={{ __html: marked(text)}} />
+            
+            <Box align="">
+
+            <DialogTimer />
             </Box>
-            <Typography style={{ maxWidth: "711px" }} align="center" dangerouslySetInnerHTML={{ __html: marked(text) }} />
         </Box>
     )
 }
