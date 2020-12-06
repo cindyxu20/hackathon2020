@@ -8,4 +8,4 @@
 #### - 3 min max
 # Devpost submission must include
 #### - Describe the problem your solution addresses? (150 word limit)
-#### - Why did you pick this solution and how does it address the problem? (150 word limit)
+#### - Why did you pick this solution and (importantly) how does it address the problem? (150 word limit)
