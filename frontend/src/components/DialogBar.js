@@ -29,7 +29,7 @@ export default function DialogBar({ scene, goToNextScene, goToPreviousScene }) {
                 </Grid>
 
                 <Grid item md={3}>
-                    {scene.id !== 3 && (
+                    {scene.id !==8 && (
                         <Button
                             color="secondary"
                             variant="contained"
