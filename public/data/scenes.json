@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Chapel",
         "backgroundUrl": "./img/test.jpg",
-        "deviPos": {"x": 90, "y": 10},
+        "deviPos": {"x": 90, "y": 40},
         "textContent": [
             {
                 "id": 1,
@@ -31,7 +31,7 @@
         "id": 1,
         "name": "Walk to class!",
         "backgroundUrl": "./img/scene2walk.MOV",
-        "deviPos": {"x": 50, "y": 50},
+        "deviPos": {"x": 50, "y": 60},
         "textContent": [
             {
                 "id": 1,
@@ -51,7 +51,7 @@
         "id": 2,
         "name": "Classroom",
         "backgroundUrl": "./img/Classroom.jpg",
-        "deviPos": {"x": 40, "y": 10},
+        "deviPos": {"x": 40, "y": 30},
 
         "textContent": [
             {
@@ -84,7 +84,7 @@
         "id": 3,
         "name": "BC Plaza and WU",
         "backgroundUrl": "./img/bcplaza.jpg",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 30, "y": 40},
 
         "textContent": [
             {
@@ -121,7 +121,7 @@
         "id": 4,
         "name": "Bryan Center - University Store",
         "backgroundUrl": "./img/unistore.jpg",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 35, "y": 55},
         "textContent": [
             {
                 "id": 1,
@@ -133,7 +133,7 @@
         "id": 5,
         "name": "Bryan Center - Downstairs",
         "backgroundUrl": "./img/bcinside.jpg",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 30, "y": 35},
         "textContent": [
             {
                 "id": 1,
@@ -149,7 +149,7 @@
         "id": 6,
         "name": "Wellness Center",
         "backgroundUrl": "./img/wellnesscenter.jpg",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 25, "y": 40},
         "textContent": [
             {
                 "id": 1,
@@ -190,7 +190,7 @@
         "id": 8,
         "name": "Bus Stop",
         "backgroundUrl": "./img/bus.jpg",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 50, "y": 30},
         "textContent": [
             {
                 "id": 1,
@@ -221,7 +221,7 @@
     {
         "id": 9,
         "name": "Academic Resource Center",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 30, "y": 35},
         "backgroundUrl": "./img/academicresource.jpg",
         "textContent": [
             {
@@ -253,7 +253,7 @@
     {
         "id": 10,
         "name": "East Campus",
-        "deviPos": {"x": 30, "y": 10},
+        "deviPos": {"x": 30, "y": 40},
         "backgroundUrl": "./img/eastcampus.jpg",
         "textContent": [
             {
