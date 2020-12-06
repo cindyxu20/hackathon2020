@@ -170,7 +170,7 @@
         "textContent": [
             {
                 "id": 1,
-                "text": "You can sign up for virtual meditation/yoga sessions through the wellness center if you ever need a break! You can sign up using this link! [Online Yoga - Duke Integrative Medicine]"
+                "text": "You can sign up for virtual meditation/yoga sessions through the wellness center if you ever need a break! You can sign up using this link! <a class=\"mdlink\" target=\"_blank\" href=\"https://dukeintegrativemedicine.org/programs-training/public/yoga-classes/\">DukeHub</a>"
             },
             {
                 "id": 2,
@@ -230,7 +230,7 @@
             },
             {
                 "id": 2,
-                "text": "Make sure to check out all of these amazing resources: [Duke Academic Resource Center]"
+                "text": "Make sure to check out all of these amazing resources: <a class=\"mdlink\" target=\"_blank\" href=\"https://arc.duke.edu/\">DukeHub</a>"
             },
             {
                 "id": 3,
@@ -238,7 +238,7 @@
             },
             {
                 "id": 4,
-                "text": "Then schedule an appointment at the Career Center! [Career Center]"
+                "text": "Then schedule an appointment at the Career Center! <a class=\"mdlink\" target=\"_blank\" href=\"https://studentaffairs.duke.edu/career\">DukeHub</a>"
             },
             {
                 "id": 5,
@@ -262,7 +262,7 @@
             },
             {
                 "id": 2,
-                "text": "Join DukeGroups to learn about student organizations, activities and campus events! [DukeCreate and Partner Workshops | Duke Arts]                "
+                "text": "Join DukeGroups to learn about student organizations, activities and campus events! <a class=\"mdlink\" target=\"_blank\" href=\"https://arts.duke.edu/dukecreate/\">DukeHub</a>                "
             },
             {
                 "id": 3,
