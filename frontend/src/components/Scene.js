@@ -39,7 +39,8 @@ export default function Scene({ scene, setSceneId }) {
       <Box align="center" class="blackness fixed-bottom">
         <Box>
           <Grid container spacing={3}>
-            <Grid item xs={4}>
+            <Grid item md={4}>
+                <br></br>
               <Button
                 color="secondary"
                 variant="contained"
@@ -48,7 +49,7 @@ export default function Scene({ scene, setSceneId }) {
                 Previous Scene
               </Button>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item md={4}>
               <Typography variant="h4">{scene.name}</Typography>
               <Carousel
                 timeout={200}
@@ -61,7 +62,8 @@ export default function Scene({ scene, setSceneId }) {
               </Carousel>
             </Grid>
         
-            <Grid item xs={4}>
+            <Grid item md={4}>
+            <br></br>
               {scene.id !== 3 && (
                 <Button
                   color="secondary"
