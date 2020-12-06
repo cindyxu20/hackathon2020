@@ -38,7 +38,7 @@ function draw() {
     eric.display();
       ian.display();
         joey.display();
-        image(img, windowWidth/2, yPos+1200, 300, 350);
+        image(img, windowWidth/2, yPos+1200, 300, 400);
         homeImage.display();
     yPos--;
 
