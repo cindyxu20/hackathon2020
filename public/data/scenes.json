@@ -121,7 +121,7 @@
         "id": 4,
         "name": "Bryan Center - University Store",
         "backgroundUrl": "./img/unistore.jpg",
-        "deviPos": {"x": 35, "y": 55},
+        "deviPos": {"x": 75, "y": 55},
         "textContent": [
             {
                 "id": 1,
@@ -133,7 +133,7 @@
         "id": 5,
         "name": "Bryan Center - Downstairs",
         "backgroundUrl": "./img/bcinside.jpg",
-        "deviPos": {"x": 30, "y": 35},
+        "deviPos": {"x": 70, "y": 35},
         "textContent": [
             {
                 "id": 1,
