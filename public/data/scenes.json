@@ -68,7 +68,7 @@
             },
             {
                 "id": 4,
-                "text": "To succeed as a Duke student, you must familiarize yourself with classroom tools: there’s your premium Zoom account, courtesy of Duke (log in using <a class=\"mdlink\" target=\"_blank\" href=\"https://duke.zoom.us\">DukeHub</a>), and tools such as Sakai, Sapling, Akindi, Canvas, and Gradescope."
+                "text": "To succeed as a Duke student, you must familiarize yourself with classroom tools: there’s your premium Zoom account, courtesy of Duke (log in using <a class=\"mdlink\" target=\"_blank\" href=\"https://duke.zoom.us/\">DukeHub</a>), and tools such as Sakai, Sapling, Akindi, Canvas, and Gradescope."
             },
             {
                 "id": 5,
@@ -125,7 +125,7 @@
         "textContent": [
             {
                 "id": 1,
-                "text": "An important building on Duke’s campus is the Bryan Center. On the top floor of BC, we have our local art gallery and the University Store! You can order some of our super cool merch from our online store here: Duke University Store"
+                "text": "An important building on Duke’s campus is the Bryan Center. On the top floor of BC, we have our local art gallery and the University Store! You can order some of our super cool merch from our online store here: <a class=\"mdlink\" target=\"_blank\" href=\"https://www.dukestores.duke.edu/\">DukeHub</a>"
             }
         ]
     },
