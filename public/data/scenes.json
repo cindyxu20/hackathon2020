@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "chapel",
+        "name": "Chapel",
         "backgroundUrl": "./img/test.jpg",
         "textContent": [
             {
@@ -28,7 +28,7 @@
     },
     {
         "id": 2,
-        "name": "scene 2",
+        "name": "Walk to class!",
         "backgroundUrl": "./video/scene2walk.MOV",
         "textContent": [
             {
@@ -47,7 +47,7 @@
     },
     {
         "id": 3,
-        "name": "scene 3",
+        "name": "Classroom",
         "backgroundUrl": "./img/Classroom.jpg",
         "textContent": [
             {
@@ -65,15 +65,49 @@
             {
                 "id": 4,
                 "text": "To succeed as a Duke student, you must familiarize yourself with classroom tools: there’s your premium Zoom account, courtesy of Duke (log in using Duke University - Zoom), and tools such as Sakai, Sapling, Akindi, Canvas, and Gradescope."   
-            },
+            }
             {
                 "id": 5,
                 "text": "Check with your professors so you know what tools are necessary for each class! We have tutorials for each program here."   
-            },
+            }
             {
                 "id": 6,
                 "text": "That sounds like a lot, but navigating each of these platforms and being sure you are able to access lectures/recordings, submit tests/quizzes, turn in homework, etc., becomes more intuitive with some practice!"   
             }
         ]
-    }
+    },
+    {
+        "id": 4,
+        "name": "BC Plaza and WU",
+        "backgroundUrl": "./img/bcplaza.jpg",
+        "textContent": [
+            {
+                "id": 1,
+                "text": "Each Duke semester is packed with tons of events/activities. Many of the in-person ones may occur around here, at Bryan Center (BC) plaza near WU!"   
+            },
+            {
+                "id": 2,
+                "text": "Make sure to keep a lookout for events posted on DukeGroups or in the Duke University Union (DUU) newsletter!"   
+            },
+            {
+                "id": 3,
+                "text": "If you’re on campus (but taking online classes of course), try to take more breaks where you can walk around outside and enjoy some fresh air! "   
+            },
+            {
+                "id": 4,
+                "text": "You can download the Mobile Order app, select Duke University as your school, and order from all the options in WU and around campus ahead of time before walking over to pick up your food. Just thinking about it makes me hungry already!!"
+            },
+            {
+                "id": 5,
+                "text": "Wanna hear a joke? What is the Blue Devil’s favorite brand of mayonnaise? Hellman’s!"
+            },
+            {
+                "id": 6,
+                "text": "You might also want to download the eAccounts app to keep track of your food and Flex points, and you can stick your Duke Card in your Apple Wallet to access buildings through your phone! "
+            },
+            {
+                "id": 7,
+                "text": "Another good app to download is DukeMobile, which provides you with a map of campus, info about transportation (including requesting a Duke Van), a directory, ePrint services, and more!"
+            }
+        ]
 ]
