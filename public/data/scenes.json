@@ -110,6 +110,31 @@
                 "text": "Another good app to download is DukeMobile, which provides you with a map of campus, info about transportation (including requesting a Duke Van), a directory, ePrint services, and more!"
             }
         ]
+    },
+    {
+        "id": 5,
+        "name": "Bryan Center - University Store",
+        "backgroundUrl": "./img/bcplaza.jpg",
+        "textContent": [
+            {
+                "id": 1,
+                "text": "An important building on Duke’s campus is the Bryan Center. On the top floor of BC, we have our local art gallery and the University Store! You can order some of our super cool merch from our online store here: Duke University Store"   
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Bryan Center - Downstairs",
+        "backgroundUrl": "./img/bcplaza.jpg",
+        "textContent": [
+            {
+                "id": 1,
+                "text": "Go down a level and you can find our colorful, comfy study chairs, McDonald’s and the Loop restaurant, and finally, you can find the mail center and CMA on the bottom floors."   
+            },
+            {
+                "id": 2,
+                "text": "You can find tons of resource offices, such as the Center for Multicultural Affairs (CMA), which is committed to promoting diversity and inclusion while eliminating racism and discrimination in our community. Remember, we are always here to help! [Center for Multicultural Affairs]"   
+            }
+        ]
     }
 ]
-
