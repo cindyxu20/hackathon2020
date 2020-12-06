@@ -24,25 +24,35 @@
   
 }
 
-.typewriter {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
+.transition{
+    transition: all;
+}
+
+/* animations */
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+  @keyframes bounce {
+    0%   { transform: scale(1,1)      translateY(0); }
+    20%  { transform: scale(1.1,.9)   translateY(0); }
+    40%  { transform: scale(.9,1.1)   translateY(-100px); }
+    60%  { transform: scale(1.05,.95) translateY(0); }
+    80%  { transform: scale(1,1)      translateY(-7px); }
+    100%  { transform: scale(1,1)      translateY(0); }
+}
+
+.bounce-subtle {
+    animation-name: bounce-subtle;
+    animation-timing-function: ease;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes bounce-subtle {
+    0%   { transform: scale(1,1)      translateY(0); }
+    50%  { transform: scale(.97,1.03)   translateY(-26px); }
+    100%  { transform: scale(1,1)      translateY(0); }
+}

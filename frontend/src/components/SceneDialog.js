@@ -1,6 +1,10 @@
 import React from 'react'
-import { Typography } from "@material-ui/core"
+import { Typography, Box } from "@material-ui/core"
 
 export default function Dialog({ text }) {
-    return (<Typography>{text}</Typography>)
+    return (
+        <Box px={8}>
+            <Typography style={{minHeight: "70px"}}>{text}</Typography>
+        </Box>
+    )
 }

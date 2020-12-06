@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
 import { Fade, Zoom } from "@material-ui/core"
 
-export default function BlueDevil() {
-
-    const [ top, setTop ] = useState(50)
-    const [ left, setLeft ] = useState(50)
+export default function BlueDevil({position, animation}) {
 
     const imgStyles = {
         width: "300px",
@@ -12,14 +9,14 @@ export default function BlueDevil() {
 
     const rootStyles = {
         position: "fixed",
-        top: `${top}%`,
-        left: `${left}%`,
+        bottom: `${position.y}%`,
+        right: `${100 - position.x}%`,
     }
 
     return (
-        <div style={rootStyles}>
+        <div style={rootStyles} className="transition">
             <Fade in={true} timeout={3141}>
-                <img src="./img/mascot.gif" style={imgStyles} />
+                <img id="devi" src="./img/mascot.gif" style={imgStyles} className={animation} />
             </Fade>
         </div>
     )

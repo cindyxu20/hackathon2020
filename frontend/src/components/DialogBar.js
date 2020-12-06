@@ -1,26 +1,41 @@
 import React from 'react'
 import { Box, Button, Typography, Grid } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles"
 import Carousel from "react-material-ui-carousel";
 import SceneDialog from "./SceneDialog";
 
-export default function DialogBar({ scene, goToNextScene, goToPreviousScene }) {
+const useStyles = makeStyles(theme => ({
+    root: {
+        minHeight: "300px",
+        [theme.breakpoints.up('md')]: {
+            height: "180px"
+        }
+    }
+}))
+
+export default function DialogBar({ scene, goToNextScene, goToPreviousScene, dialogIndex, handleDialogChange }) {
+    const classes = useStyles()
+
     return (
         <Box align="center" class="blackness fixed-bottom" >
-            <Grid style={{ height: "180px" }} container spacing={3} alignItems="center" justify="center">
-                <Grid item md={3}>
+            <Grid className={classes.root} container spacing={3} alignItems="center" justify="center">
+                <Grid item xs={12} md={2}>
                     <Button
                         color="secondary"
                         variant="contained"
                         onClick={goToPreviousScene}
                     >
-                        Previous Scene
-                            </Button>
+                        Previous
+                    </Button>
                 </Grid>
-                <Grid item md={6}>
+                <Grid item xs={12} md={8}>
                     <Carousel
                         interval={8000}
                         indicators={false}
-                        navButtonsAlwaysVisible={false}
+                        navButtonsAlwaysVisible={true}
+                        autoPlay={true}
+                        onChange={handleDialogChange}
+                        index={dialogIndex}
                     >
                         {scene.textContent.map((dialog) => (
                             <SceneDialog text={dialog.text} key={dialog.id} />
@@ -28,14 +43,14 @@ export default function DialogBar({ scene, goToNextScene, goToPreviousScene }) {
                     </Carousel>
                 </Grid>
 
-                <Grid item md={3}>
-                    {scene.id !==8 && (
+                <Grid item xs={12} md={2}>
+                    {scene.id !== 8 && (
                         <Button
                             color="secondary"
                             variant="contained"
                             onClick={goToNextScene}
                         >
-                            Next Scene
+                            Next
                         </Button>
                     )}
                 </Grid>
