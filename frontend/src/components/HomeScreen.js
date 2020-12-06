@@ -1,10 +1,10 @@
 // react
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+
 import { useHistory } from "react-router-dom"
 
 // material-ui
-import { Box, Button, Typography } from "@material-ui/core";
+import { Box, Button, Typography, Fade } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 export default function HomeScreen() {
