@@ -31,7 +31,7 @@
         "id": 1,
         "name": "Walk to class!",
         "backgroundUrl": "./img/scene2walk.MOV",
-        "deviPos": {"x": 50, "y": 60},
+        "deviPos": {"x": 50, "y": 40},
         "textContent": [
             {
                 "id": 1,
