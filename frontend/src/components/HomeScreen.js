@@ -16,11 +16,11 @@ export default function HomeScreen() {
     setFadeOut(true)
     setTimeout(() => {
       history.push('/scene')
-    }, 4000)
+    }, 2500)
   }
 
   return (
-    <Fade timeout={4000} in={!fadeOut}>
+    <Fade timeout={2500} in={!fadeOut}>
       <div
         class="overlay"
         style={{
