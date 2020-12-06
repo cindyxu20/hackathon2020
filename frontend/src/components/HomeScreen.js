@@ -8,7 +8,7 @@ import { Box, Button, Typography } from "@material-ui/core"
 export default function HomeScreen() {
 
     return (
-        <div class = "overlay" style={{height: "100vh", background: "url(./img/front-page-entrance.jpg)", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+        <div class = "overlay" style={{height: "100vh", background: "url(./img/front-page-entrance.jpg)", backgroundPosition: "bottom", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
             {/* title */}
             <Box bgcolor="primary">
                 <Box align="center">
