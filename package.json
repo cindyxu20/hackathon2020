@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo 'great job'",
     "start": "node ./index.js",
-    "build": "cd frontend && npm run build",
+    "build": "cd frontend && npm ci && npm run build",
     "deploy": "cd ./frontend && npm run build && cd ../ && gcloud app deploy --project duke-re --quiet"
   },
   "author": "",
