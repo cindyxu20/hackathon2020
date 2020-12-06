@@ -230,7 +230,7 @@
             },
             {
                 "id": 2,
-                "text": "Make sure to check out all of these amazing resources: [Duke Academic Resource Center]"
+                "text": "Make sure to check out all of these amazing resources: <a class=\"mdlink\" target=\"_blank\" href=\"https://arc.duke.edu/\">DukeHub</a>"
             },
             {
                 "id": 3,
