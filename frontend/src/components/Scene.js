@@ -4,31 +4,37 @@ import { useHistory } from "react-router-dom";
 import DialogBar from "./DialogBar"
 import BlueDevil from "./BlueDevil"
 import TopBar from "./TopBar"
+import { getScene } from "../functions"
 
-export default function Scene({ scene, setSceneId, dialogIndex, setDialogIndex }) {
+export default function Scene() {
     const history = useHistory();
-
+    const [sceneId, setSceneId] = useState(1)
+    const [dialogIndex, setDialogIndex] = useState(0)
+    const scene = getScene(sceneId)
     const [deviAnimation, setDeviAnimation] = useState("bounce-subtle")
 
-    function bigBounce() {
-        setDeviAnimation("bounce")
-        setTimeout(() => setDeviAnimation("bounce-subtle"), 2000)
+    let animationTimeOut
+
+    function act(animationName) {
+        clearTimeout(animationTimeOut)
+        setDeviAnimation(animationName)
+        animationTimeOut = setTimeout(() => setDeviAnimation("bounce-subtle"), 2000)
     }
 
     function handleNextDialog(next, active) {
-        if (next === 0){
+        if (next === 0) {
             goToNextScene()
         }
     }
 
     function handlePreviousDialog(previous, active) {
-        if (active === 0){
+        if (active === 0) {
             goToPreviousScene()
         }
-    } 
+    }
 
     function goToNextScene() {
-        bigBounce()
+        act("bounce")
         setDialogIndex(0)
         setSceneId(scene.id + 1);
     }
@@ -37,7 +43,7 @@ export default function Scene({ scene, setSceneId, dialogIndex, setDialogIndex }
         // if in the first scene, go to home screen
         if (scene.id === 1) history.push("/");
 
-        bigBounce()
+        act("tip")
         setDialogIndex(0)
         setSceneId(scene.id - 1);
     }
