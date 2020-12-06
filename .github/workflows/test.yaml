@@ -22,8 +22,8 @@ jobs:
     - name: Deploy to Google App Engine
       uses: atRobertoFlores/gae_deploy_action@master
       with:
-      service_account: duke-re@appspot.gserviceaccount.com
-      project_name: duke-re
+        service_account: duke-re@appspot.gserviceaccount.com
+        project_name: duke-re
 
       env:
         CI: true
