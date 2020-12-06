@@ -15,18 +15,17 @@ export default function Scene({ scene, setSceneId, dialogIndex, setDialogIndex }
         setTimeout(() => setDeviAnimation("bounce-subtle"), 2000)
     }
 
-    function handleDialogChange(e) {
-
-        const lastDialogIndex = scene.textContent.length - 1
-
-        if (dialogIndex === lastDialogIndex && e === 0) {
+    function handleNextDialog(next, active) {
+        if (next === 0){
             goToNextScene()
-        } else if (dialogIndex === 0 && e === lastDialogIndex ) {
-            goToPreviousScene()
-        } else {
-            setDialogIndex(e)
         }
     }
+
+    function handlePreviousDialog(previous, active) {
+        if (active === 0){
+            goToPreviousScene()
+        }
+    } 
 
     function goToNextScene() {
         bigBounce()
@@ -57,12 +56,15 @@ export default function Scene({ scene, setSceneId, dialogIndex, setDialogIndex }
             <TopBar text={scene.name} />
             <BlueDevil position={scene.deviPos} animation={deviAnimation} />
             <DialogBar
-                scene={scene}
-                goToNextScene={goToNextScene}
-                goToPreviousScene={goToPreviousScene}
-                dialogIndex={dialogIndex}
-                setDialogIndex={setDialogIndex}
-                handleDialogChange={handleDialogChange}
+                {...{
+                    scene,
+                    goToNextScene,
+                    goToPreviousScene,
+                    dialogIndex,
+                    setDialogIndex,
+                    handleNextDialog,
+                    handlePreviousDialog
+                }}
             />
         </Box>
     );

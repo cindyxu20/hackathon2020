@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
     }
 }))
 
-export default function DialogBar({ scene, goToNextScene, goToPreviousScene, dialogIndex, handleDialogChange }) {
+export default function DialogBar({ scene, goToNextScene, goToPreviousScene, dialogIndex, handleNextDialog, handlePreviousDialog }) {
     const classes = useStyles()
 
     return (
@@ -31,10 +31,12 @@ export default function DialogBar({ scene, goToNextScene, goToPreviousScene, dia
                 <Grid item xs={12} md={8}>
                     <Carousel
                         interval={8000}
+                        timeout={150}
                         indicators={false}
                         navButtonsAlwaysVisible={true}
                         autoPlay={true}
-                        onChange={handleDialogChange}
+                        next={handleNextDialog}
+                        prev={handlePreviousDialog}
                         index={dialogIndex}
                     >
                         {scene.textContent.map((dialog) => (
