@@ -60,9 +60,9 @@ class Credit {
   }
   display() {
     fill(255, 255, 255);
-  textSize(75)
-  text(this.c, width/2, yPos + this.diff);
   textSize(50)
+  text(this.c, width/2, yPos + this.diff);
+  textSize(30)
   text(this.description, width/2, yPos + this.diff + 50);
 
   }
@@ -77,9 +77,9 @@ class Attribution{
       }
       display() {
         fill(255, 255, 255);
-      textSize(50)
-      text(this.c, width/2, yPos + this.diff);
       textSize(30)
+      text(this.c, width/2, yPos + this.diff);
+      textSize(15)
       text(this.description, width/2, yPos + this.diff + 40);
 
   }
