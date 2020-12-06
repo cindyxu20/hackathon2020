@@ -4,7 +4,6 @@ import { makeStyles } from "@material-ui/core/styles"
 import Carousel from "react-material-ui-carousel";
 import SceneDialog from "./SceneDialog";
 
-
 const useStyles = makeStyles(theme => ({
     root: {
         minHeight: "300px",

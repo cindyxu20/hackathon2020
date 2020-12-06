@@ -15,7 +15,7 @@ export default function BlueDevil({position, animation}) {
 
     return (
         <div style={rootStyles} className="transition">
-            <Fade in={true} timeout={3141}>
+            <Fade in={true} timeout={4444}>
                 <img id="devi" src="./img/mascot.gif" style={imgStyles} className={animation} />
             </Fade>
         </div>
