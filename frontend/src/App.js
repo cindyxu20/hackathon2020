@@ -23,9 +23,6 @@ const dukeRemoteExperienceTheme = createMuiTheme({
         secondary: {
             main: "#C84E00"
         },
-        whiteness: {
-            main: "#FFFFFF"
-        },
         type: "dark",
     },
     shadows: ["none"],
