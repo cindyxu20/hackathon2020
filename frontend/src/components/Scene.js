@@ -6,7 +6,6 @@ import BlueDevil from "./BlueDevil"
 import TopBar from "./TopBar"
 import { getScene } from "../functions"
 
-
 export default function Scene() {
     const history = useHistory();
     const [sceneId, setSceneId] = useState(0)
@@ -49,7 +48,7 @@ export default function Scene() {
 
     function goToPreviousScene() {
         // if in the first scene, go to home screen
-        if (scene.id === 1) history.push("/");
+        if (scene.id === 0) history.push("/");
 
         act("tip")
         setDialogIndex(0)
@@ -57,7 +56,7 @@ export default function Scene() {
     }
 
     return (
-        <Fade in={true}>
+        <Fade timeout={1000} in={true}>
             <Box
                 class=" background-fixer"
                 style={{

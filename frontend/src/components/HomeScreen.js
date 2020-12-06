@@ -21,7 +21,7 @@ export default function HomeScreen() {
   }
 
   return (
-    <Fade in={!fadeOut}>
+    <Fade timeout={1000} in={!fadeOut}>
 
     <div
       class="overlay"
