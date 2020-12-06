@@ -238,7 +238,7 @@
             },
             {
                 "id": 4,
-                "text": "Then schedule an appointment at the Career Center! [Career Center]"
+                "text": "Then schedule an appointment at the Career Center! <a class=\"mdlink\" target=\"_blank\" href=\"https://studentaffairs.duke.edu/career\">DukeHub</a>"
             },
             {
                 "id": 5,
