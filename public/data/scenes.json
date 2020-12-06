@@ -6,19 +6,23 @@
         "textContent": [
             {
                 "id": 1,
-                "text": "Hello! Welcome"   
+                "text": "Welcome to Duke Remote!"   
             },
             {
                 "id": 2,
-                "text": "sample message 1"   
+                "text": "My name is Devi (BECAUSE WE DON’T TAKE ANY L’S HERE) and I’m here to help you transition to an online learning environment!"   
             },
             {
                 "id": 3,
-                "text": "sample message 2"   
+                "text": "Whether you’re just next door or across the globe, you’ll always have a family here at Duke and on our campus (including this virtual campus)!"   
             },
             {
                 "id": 4,
-                "text": "Last message before going to next scene!"   
+                "text": "Let me show you around and introduce you to tips and resources to help you succeed and feel connected in our community, no matter where you are."   
+            }
+            {
+                "id": 5,
+                "text": "Let's gooo!"   
             }
         ]
     },
